@@ -1,0 +1,26 @@
+git config --list
+
+kalo error coba dah diliat, terus kalo error di penamaan ganti aja namanya pake:
+
+git config --local remote.origin.url "https://github.com/fath-purn/Strukdat-semester-2.git"
+
+
+user.email=talitakamilia345@gmai.com
+user.name=fath-purn
+
+kalo nama sama email gini:
+git config --local user.email "your@email.com"
+git config --local user.name "your name"
+
+selain pake --local 
+bisa pake --global
+
+#gatau bedanya
+
+========================================================
+
+untuk mempercantik kode tanpa susa
+        shift+alt+f
+
+=====================
+
