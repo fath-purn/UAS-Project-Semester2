@@ -6,7 +6,7 @@
 #include <iomanip>
 using namespace std;
 
-/// PROGRAM PENCARIAN LINTASAN TERPENDEK (ALGORITMA DIJKSTRA)
+/// PROGRAM PENCARIAN LINTASAN TERPENDEK
 // Deklarasi Global
 int jumlahSimpul;
 string *dataSimpul;
