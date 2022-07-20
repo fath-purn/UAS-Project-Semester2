@@ -591,16 +591,16 @@ int main(){
                         cin>>kode_rak;
                         cout<<endl<<endl;
                         tambahBelakang(kode_rak);
-                        cout<<"Apakah Anda Ingin Keluar (y/t) ? ";
-                        cin>>ya_tidak;
-                        if(ya_tidak =='y'||ya_tidak=='Y'){
-                            cout<<"___________________________________________"<<endl;
-                            cout<<"\t\   ANDA TELAH KELUAR ! ! ! "<<endl;
-                            cout<<"___________________________________________"<<endl;
-                            keluar=true;
-                        }else{
-                            system("cls");
-                        }
+                            cout<<"Apakah Anda Ingin Keluar (y/t) ? ";
+                            cin>>ya_tidak;
+                            if(ya_tidak =='y'||ya_tidak=='Y'){
+                                cout<<"___________________________________________"<<endl;
+                                cout<<"\t\   ANDA TELAH KELUAR ! ! ! "<<endl;
+                                cout<<"___________________________________________"<<endl;
+                                keluar=true;
+                            }else{
+                                system("cls");
+                            }
                         break;
                     case 3:
                         hapusDepan();
